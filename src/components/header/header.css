@@ -1,0 +1,124 @@
+header {
+}
+
+.header-top {
+  background: rgb(242, 242, 242);
+  padding: 20px 0;
+}
+
+.top-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-info span {
+  color: rgb(28, 39, 82);
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  text-align: left;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.herro-main {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.connect {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.mconnect {
+  border-radius: 50%;
+  padding: 10px;
+  border: 2px solid #fff;
+}
+
+.info-us p {
+  color: rgb(28, 39, 82);
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.36px;
+  text-align: left;
+}
+
+.info-us a {
+  color: rgb(126, 126, 126);
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  text-align: left;
+}
+
+.navbar {
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background: rgb(255, 179, 66);
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.list-item-link {
+  color: rgb(34, 34, 34);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  text-align: left;
+  transition: all 0.7s ease;
+}
+
+.list-item-link:hover {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  text-align: left;
+}
+
+.question-btn {
+  box-sizing: border-box;
+  border: 2px solid rgb(28, 39, 82);
+  background: rgb(28, 39, 82);
+  color: rgb(244, 244, 244);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  text-align: center;
+  padding: 19px 42px;
+
+  cursor: pointer;
+}
