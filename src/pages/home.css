@@ -1,0 +1,128 @@
+.herro {
+  background-image: url("../assets/images/wrapper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 813px;
+  position: relative;
+}
+
+.info-wrapper {
+  position: absolute;
+  top: 40%;
+  width: 50%;
+}
+
+.info-wrapper p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.info-wrapper h2 {
+  color: rgb(255, 255, 255);
+  font-family: Mulish;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 78px;
+  letter-spacing: 1.2px;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 30px 0;
+}
+
+.herro-btn {
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 179, 66);
+  background: rgb(255, 179, 66);
+  color: rgb(28, 39, 82);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  text-align: left;
+  padding: 19px 42px;
+  transition: all 0.6s ease;
+}
+
+.herro-btn:hover {
+  color: rgb(28, 39, 82);
+  background: rgb(244, 244, 244);
+}
+
+@media screen and ((min-width: 350px) and (max-width:768px)) {
+  .herro {
+    background-image: url("../assets/images/wrapper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 813px;
+    position: relative;
+  }
+
+  .info-wrapper {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .info-wrapper p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.36px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .info-wrapper h2 {
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0;
+  }
+
+  .herro-btn {
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 179, 66);
+    background: rgb(255, 179, 66);
+    color: rgb(28, 39, 82);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    text-align: center;
+    padding: 19px 42px;
+    transition: all 0.6s ease;
+    width: 100%;
+    display: block;
+  }
+
+  .herro-btn:hover {
+    color: rgb(28, 39, 82);
+    background: rgb(244, 244, 244);
+  }
+}

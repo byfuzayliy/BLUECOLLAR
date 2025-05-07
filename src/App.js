@@ -8,7 +8,7 @@ function App() {
   return (
     <Fragment>
       <Header />
-      <div className="container">
+      <div>
         <Home />
       </div>
       <Footer />

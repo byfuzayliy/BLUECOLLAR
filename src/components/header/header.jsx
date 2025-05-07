@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa";
 
 import { MdEmail, MdPhone } from "react-icons/md";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 import EnterAnimation from "../animations/circle";
 
@@ -95,9 +96,11 @@ export class Header extends Component {
                   </div>
                 </WildcardKeyframes>
               </div>
+              <button className="btn-menu">
+                <GiHamburgerMenu />
+              </button>
             </div>
           </div>
-
           <nav className="navbar">
             <div className="nav container">
               <ul className="list">
