@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import {
   FaFacebook,
   FaInstagram,
@@ -15,8 +15,22 @@ import "./header.css";
 
 import logo from "../../../src/assets/images/logo.png";
 import WildcardKeyframes from "../animations/wildcard";
+import { menu } from "motion/react-client";
 export class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      menuOpen: false,
+    };
+  }
+
+  toggleMenu = () => {
+    this.setState((prevState) => ({ menuOpen: !prevState.menuOpen }));
+  };
   render() {
+    const { menuOpen } = this.state;
+    console.log(menuOpen);
+
     return (
       <header>
         <div className="header-wrapper">
@@ -96,12 +110,12 @@ export class Header extends Component {
                   </div>
                 </WildcardKeyframes>
               </div>
-              <button className="btn-menu">
+              <button onClick={this.toggleMenu} className="btn-menu">
                 <GiHamburgerMenu />
               </button>
             </div>
           </div>
-          <nav className="navbar">
+          <nav className={menuOpen ? "show" : "navbar"}>
             <div className="nav container">
               <ul className="list">
                 <li>

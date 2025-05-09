@@ -64,6 +64,7 @@
   .herro {
     background-image: url("../assets/images/wrapper.png");
     background-size: cover;
+    object-fit: contain;
     background-repeat: no-repeat;
     width: 100%;
     min-height: 813px;
@@ -124,5 +125,204 @@
   .herro-btn:hover {
     color: rgb(28, 39, 82);
     background: rgb(244, 244, 244);
+  }
+}
+
+/* !experience */
+
+.experience-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 140px 0;
+  gap: 50px;
+}
+
+.experience-info .quotis {
+  display: flex;
+  align-items: center;
+  color: rgb(28, 39, 82);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.experience-info span {
+  margin-right: 5px;
+  font-size: 25px;
+}
+.experience-info h3 {
+  color: rgb(28, 39, 82);
+  font-family: Mulish;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 58.5px;
+  letter-spacing: 0.36px;
+  text-align: left;
+}
+
+.info-text {
+  color: rgb(126, 126, 126);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  text-align: left;
+}
+
+.card-info {
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+  gap: 40px;
+}
+
+.card-value {
+  background: rgb(244, 244, 244);
+  padding: 24px 51px;
+  width: 198px;
+  height: 220px;
+}
+
+.card-value h4 {
+  color: rgb(255, 179, 66);
+  font-family: Mulish;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.36px;
+  text-align: center;
+}
+
+.card-value p {
+  color: rgb(28, 39, 82);
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.36px;
+  text-align: center;
+}
+
+.card-offer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-offer p {
+  color: rgb(126, 126, 126);
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  text-align: left;
+}
+
+@media screen and ((min-width: 350px) and (max-width:768px)) {
+  .experience-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 20px;
+    gap: 50px;
+  }
+
+  .provide-img img {
+    width: 100%;
+  }
+
+  .experience-info .quotis {
+    display: flex;
+    align-items: center;
+    color: rgb(28, 39, 82);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.36px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .experience-info span {
+    margin-right: 5px;
+    font-size: 18px;
+  }
+  .experience-info h3 {
+    color: rgb(28, 39, 82);
+    font-family: Mulish;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 38.5px;
+    letter-spacing: 0.36px;
+    text-align: left;
+    margin: 10px 0;
+  }
+
+  .info-text {
+    color: rgb(126, 126, 126);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.36px;
+    text-align: left;
+  }
+
+  .card-info {
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .card-value {
+    background: rgb(244, 244, 244);
+    padding: 24px 51px;
+    width: 100%;
+    height: 220px;
+  }
+
+  .card-value h4 {
+    color: rgb(255, 179, 66);
+    font-family: Mulish;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0.36px;
+    text-align: center;
+  }
+
+  .card-value p {
+    color: rgb(28, 39, 82);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    text-align: center;
+  }
+
+  .card-offer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card-offer p {
+    color: rgb(126, 126, 126);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    text-align: left;
   }
 }
